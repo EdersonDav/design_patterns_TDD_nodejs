@@ -1,0 +1,14 @@
+{
+  "name": "design_patterns_tdd_nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/EdersonDav/design_patterns_tdd_nodejs.git",
+  "author": "EdersonDavi <ederson.silva@sunoresearch.com.br>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "jest": "^28.1.3"
+  }
+}
