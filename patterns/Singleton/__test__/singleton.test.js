@@ -18,6 +18,8 @@ describe('Design Pattern Singleton Test', () =>{
   it('should verify company employes instance', () =>{
     setCompanyEmployes(5)
 
+    expect(Company.info.name).toBe('Singleton ltda');
+    expect(Company.info.country).toBe('Brazil');
     expect(Company.info.employes).toBe(5);
   });
 
